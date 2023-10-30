@@ -1,0 +1,51 @@
+*{
+
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+.page{
+
+height: 100vh;
+width: 100%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.cover{
+    padding:  29px;
+background-color: white;
+width: 30em;
+height: 30em;
+position: relative;
+
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+display: flex;
+flex-direction: column;
+
+justify-content: space-around;
+}
+
+.cover .grpbut{
+    width: 50px;
+    height: 10px;
+    border-radius: white;
+}
+.check{
+    padding-top: 0.1px;
+    padding-right: 100px;
+}
+ .login{
+    font-size: 60px;
+    padding-top: 0.0px;
+   padding-left: 340px;
+
+    
+}
+
+.check a{
+    text-align: left;
+}
