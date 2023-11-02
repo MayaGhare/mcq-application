@@ -10,8 +10,8 @@ function Home() {
 
     return (
         <>
- <div className="Container">
-            <div className="banner">
+           <div className="Container">
+                <div className="banner">
                
                     <div className="content">
                         <h1>Skills speak louder <span>than words</span></h1>

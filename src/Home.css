@@ -5,15 +5,21 @@
     font-family: sans-serif;
 
 }
+.Container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+    
 
+}
 span {
     display: block;
 }
 
 .banner {
     width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+   
+
     
     
 }
@@ -75,9 +81,16 @@ padding-right: 10px;
 }
 
 @media screen and (max-width: 1030px) {
+    
 
+    
+
+        .Container{ width: 100%;
+            height: 90vh;
+            background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+            }
     .content {
-        display: b;
+        display:b;
         width: 100%;
         position: absolute;
         top: 23%;
@@ -118,8 +131,7 @@ padding-right: 10px;
     }
 
 
-    .logo img {
-        margin-top: 8px;
+    .log{
         height: 60px;
     }
     .con Button {
@@ -130,8 +142,12 @@ padding-right: 10px;
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 
+    .Container{ width: 100%;
+        height: 90vh;
+        background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+        }
     .content {
         display: b;
         width: 100%;
@@ -185,3 +201,11 @@ padding-right: 10px;
         font-weight: bold;
     }
 }
+
+@media screen and (max-width: 460px) {
+
+    .Container{ width: 100%;
+        height: 110vh;
+        background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+        }
+    }
