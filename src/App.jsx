@@ -1,18 +1,17 @@
 import { useState } from 'react'
-import Login from './Login'
-import About from './About'
+import About from './Component/About'
+import Home from './Component/Home'
+import LoginEntry from './Component/LoginEntry'
 
+import Sidebar from './Component/sidebar'
 
-
-import Home from './Home'
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <>
-<Home/>
-    <About/>
-     
+    <Sidebar/>
+
     </>
   )
 }

@@ -1,6 +1,6 @@
 import React from "react";
-import './About.css'
-import  { useState } from 'react';
+import '../style/About.css'
+import { useState } from 'react';
 import { useEffect, useRef } from "react";
 const VIDEO_PATH = 'https://youtu.be/0BIaDVnYp2A';
 const img2 = "https://picsum.photos/200/300"
@@ -22,10 +22,10 @@ function About() {
 
     const [isButtonEnabled, setButtonEnabled] = useState(true);
 
-  // Function to enable the button
-  const enableButton = () => {
-    setButtonEnabled(false);
-  };
+    // Function to enable the button
+    const enableButton = () => {
+        setButtonEnabled(false);
+    };
 
 
     return (
@@ -43,9 +43,9 @@ function About() {
 
                         <div className="get_started">
                             <ul >
-                                <li ><a  onClick={enableButton} href="#" data-url="hire-now" data-action="hire_coding">
+                                <li ><a onClick={enableButton} href="#" data-url="hire-now" data-action="hire_coding">
                                     <svg width="51" height="44" viewBox="0 0 51 44" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg_icon svg_hire">
-                                    
+
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M17 20C17 15.5817 20.5817 12 25 12C29.4183 12 33 15.5817 33 20C33 24.4183
                                          29.4183 28 25 28C20.5817 28 17 24.4183 17 20ZM25 10C19.4772 10 15 14.4772 15 20C15 25.5228 19.4772 30 25 30C27.4018 30 29.6058 29.1533
                                           31.3298 27.7421L37.2941 33.7063C37.6846 34.0969 38.3178 34.0969 38.7083 33.7063C39.0988 33.3158 39.0988 32.6827 38.7083 32.2921L32.7438

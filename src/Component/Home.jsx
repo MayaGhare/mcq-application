@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, containerClasses } from "@mui/material";
-import './Home.css'
+import '../style/Home.css'
 const img = "https://www.hackerrank.com/wp-content/uploads/2022/10/goldmansachs_black.png"
 const img1 = "https://www.hackerrank.com/wp-content/uploads/2022/10/linkedin_black.png"
 const img2 = "https://www.hackerrank.com/wp-content/uploads/2022/10/bloomberg_black.png"
